@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data table</title>
+    <script src="/javascript/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.5/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="/css/datatable.css">
+    <script src="//cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+
+    <div id="buttons">
+        <label for="userId">Enter User ID :</label>
+        <input type="text" id="userId" placeholder="Enter any Id" required><br>
+        <!-- <a href="posts.html"><button id="Posts">Posts</button></a>
+        <a href="albums.html"><button id="albums">albums</button></a>
+        <a href="comments.html"><button id="comments">comments</button></a>
+        <a href="todo.html"><button id="todos">todos</button></a> -->
+        <button id="Posts">Posts</button>
+        <button id="albums">albums</button>
+        <button id="comments">comments</button>
+        <button id="todos">todos</button>
+    </div>
+    <div id="target">
+       <table id="commentsTable"></table>
+    </div>
+    <script src="/javascript/datatable.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+body{
+    background-color: bisque;
+    font:caption;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    
+    margin: 10px 0px;
+    border: 15px;
+    padding: 0% 10%;
+
+}
+table, th, td {
+    border: 1px solid;
+  }

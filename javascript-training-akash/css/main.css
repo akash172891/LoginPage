@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(196, 111, 7);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button{
+    outline-color: bisque;
+    background-color: rgba(65, 51, 51, 0.226);
+    color: antiquewhite;
+    align-items: center;
+    
+    border-radius: 10%;
+}
+p{
+    text-align: center;
+    background-color: aliceblue;
+}
+#btns{
+    align-items: center;
+    margin:10px 40px;
+    padding:0% 40%;
+    
+    background-size: contain;
+    
+}

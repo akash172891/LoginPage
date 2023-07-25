@@ -1,0 +1,26 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: #2793d2;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+#loginForm{
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(11, 12, 12);
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 30px;
+    padding: 0% 30%;
+}
+#mytxt{
+    position: absolute;
+    background-color: cornsilk;
+    
+}
